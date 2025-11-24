@@ -1,11 +1,4 @@
-# PDF Report Generator | PDF Rapor Oluşturucu
-
-[English](#english) | [Türkçe](#turkish)
-
----
-
-<a name="english"></a>
-## 🇬🇧 English
+# PDF Report Generator
 
 Automated professional PDF report generator from Excel/CSV data.
 
@@ -93,92 +86,6 @@ Easily customize:
 MIT
 
 ---
-
-<a name="turkish"></a>
-## 🇹🇷 Türkçe
-
-Excel/CSV verilerinden otomatik profesyonel PDF rapor oluşturucu.
-
-### Özellikler
-
-- 📄 Profesyonel PDF oluşturma
-- 📊 Otomatik grafik yaratma (çubuk, çizgi, karşılaştırma)
-- 📈 İstatistiksel analiz
-- 🎨 Özel renklerle markalı şablonlar
-- 📋 Stilize veri tabloları
-- 🔢 Anahtar metrik özet kutuları
-
-### Teknolojiler
-
-- Python 3.10+
-- ReportLab (PDF oluşturma)
-- Pandas (veri işleme)
-- Matplotlib (grafik yaratma)
-- OpenPyXL (Excel okuma)
-
-### Kurulum
-
-```bash
-pip install -r requirements.txt
-```
-
-### Yapılandırma
-
-`config.py` dosyasını düzenleyin:
-
-```python
-COMPANY_NAME = "Şirket Adınız"
-REPORT_TITLE = "Aylık İş Raporu"
-PRIMARY_COLOR = HexColor('#2C3E50')
-```
-
-### Kullanım
-
-```bash
-python main.py
-```
-
-Araç şunları yapar:
-1. Excel/CSV'den veri yükler
-2. İstatistikleri hesaplar
-3. Görselleştirmeler oluşturur
-4. Profesyonel PDF rapor hazırlar
-
-Raporlar `reports/` klasörüne kaydedilir.
-
-### Girdi Formatı
-
-Excel/CSV sütunları örneği:
-- Ay, Satış, Gelir, Müşteriler
-- Veya herhangi sayısal veri
-
-### Örnek Çıktı
-
-Profesyonel PDF içeriği:
-- Markalı kapak sayfası
-- Yönetici özeti
-- Anahtar metrikler tablosu
-- Veri görselleştirmeleri
-- Detaylı analiz
-- Sonuçlar ve öneriler
-
-### Kullanım Alanları
-
-- Aylık iş raporları
-- Müşteri performans özetleri
-- Satış ekibi dashboard'ları
-- Pazarlama kampanya sonuçları
-- Finansal analiz raporları
-
-### Özelleştirme
-
-Kolayca özelleştirilebilir:
-- Renkler ve marka kimliği
-- Grafik tipleri
-- Rapor bölümleri
-- Logo yerleşimi
-
-### Lisans
 
 MIT
 
