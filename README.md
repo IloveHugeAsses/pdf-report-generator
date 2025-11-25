@@ -90,5 +90,3 @@ MIT
 MIT
 
 ---
-
-Built with ⚡ by [Forge270](https://github.com/Forge270)
